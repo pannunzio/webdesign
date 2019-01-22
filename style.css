@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	font-family: 'Staatliches', cursive;
+	color: white;
+	background-color: black;
+	background-image: url(img/giphy.gif);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+	background-origin: 0px, 100px;
+}
+
+a{
+	color: #f3f3f3
+}
+
+h1{
+	font-size: 600%;
+}
+
+h2 {
+	padding-top: 15%;
+}
+
+h3 {
+	padding-top: 15%;
+}
+
+h4 {
+	padding-top: 15%;
+}
+
+h5 {
+	padding-top: 15%;
+}
+
+li{
+	margin-top: 10%;
+	margin-bottom: 10%;
+	font-size: 300%;
+}
+
+.list{
+	position: relative;
+	display: block;
+	padding-left: 25%;
+}
+
+.header{
+	width: 100%;
+	height:50px;
+	position: relative;
+	margin-bottom: 150px;
+}
+
+.footer{
+	position: relative;
+	background-color: grey;
+	color: black;
+	width:100%;
+	padding:3%;
+}
+
+hr.post-reveal{
+	border: 2px dotted white;
+}
+
+.border{
+	border:1px dotted grey;
+	width: 70%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%);
+	padding: 10%;
+	margin-bottom: 10%;
+}
+
+.title{
+	text-align: center;
+	font-size: 200%;
+	position: relative;
+	width: 50%;
+	transform: translateX(50%);
+	margin-bottom: 40%;
+	display: inline-block;
+}
+
+.lyrics{
+	position: relative;
+	font-size: 150%;
+	text-align: left;
+	display: inline-block;
+}
+
+.reveal{
+	margin-top: 300px;
+	width: 60%;
+	position: relative;
+	text-align: right;
+}
+
+.menu{
+	color:lightgrey;
+	font-size: 18px;
+	float: right;
+}
+
+.menu li{
+	display: inline;
+	margin-top: 10px;
+	padding-right: 10px;
+}
